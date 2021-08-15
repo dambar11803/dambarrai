@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.maindiv {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    color: white;
+}
+
+.seconddiv {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    width: 13%;
+    height: 100vh;
+    background-color: white;
+    color: #3366ff
+}
+
+.mainpage {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.mainpage .back-image {
+    background-image: url('../images/code.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    filter: blur(6px);
+}
+
+.navbar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul li i {
+    display: block;
+    color: grey;
+}
+
+.navbar ul li i:hover {
+    color: red;
+}
+
+.pic-text {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pic-text img {
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 170px;
+}
+
+.pic-text h4 {
+    margin-top: 8px;
+}
+
+.navbar h3 {
+    margin-top: 50px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 10px;
+}
+
+.pic-text h4:hover {
+    color: blue;
+    font-size: 19px;
+}
